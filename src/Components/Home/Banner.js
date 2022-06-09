@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineBars } from "react-icons/ai";
+import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
 import useOpen from "../UseOpen";
 const Banner = ({ open, setOpen }) => {
   //   const [open, setOpen] = useOpen();
@@ -11,11 +11,15 @@ const Banner = ({ open, setOpen }) => {
       </button>
       <h1
         onClick={() => setOpen(!open)}
-        className="absolute text-3xl font-bold text-white right-0 top-0"
+        className="absolute lg:hidden cursor-pointer text-3xl font-bold text-white right-0 top-0"
       >
-        <AiOutlineBars></AiOutlineBars>
+        {open ? (
+          <AiOutlineClose></AiOutlineClose>
+        ) : (
+          <AiOutlineBars></AiOutlineBars>
+        )}
       </h1>
-      <div className="text-white ml-9 mt-14 text-7xl w-[50%] font-semibold">
+      <div className="text-white ml-9 mt-14 text-7xl w-full lg:w-[50%] font-semibold">
         <div className="">
           <span className="banner-text">H</span>
           <span className="banner-text">i</span>

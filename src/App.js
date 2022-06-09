@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import Contact from "./Components/Contact/Contact";
 import Projects from "./Components/Projects/Projects";
 import { useState } from "react";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -27,6 +28,7 @@ function App() {
           <Route path="projects" element={<Projects></Projects>}></Route>
         </Routes>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

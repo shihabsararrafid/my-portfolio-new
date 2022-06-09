@@ -44,7 +44,7 @@ const Sidebar = ({ open, setOpen }) => {
         <hr className="bg-[#777f8b]" />
         <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">Contact</h1>
         <hr className="bg-[#777f8b]" />
-        <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[30px]">
+        <h1 className="text-xl font-bold text-[#1E72EE] hover:text-[#1E72EE] my-4 mx-[30px]">
           Download Resume
         </h1>
         <hr className="bg-[#777f8b]" />
