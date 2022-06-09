@@ -8,7 +8,7 @@ const SingProject = ({ img, name, liveSite }) => {
           {name}
         </h2>
       </div>
-      <div class="mt-10 max-w-sm mx-auto">
+      <div class="mt-10  max-w-full mx-auto">
         <div class="relative group">
           {/* <a href="https://ibb.co/fG8v8WB"><img src="" alt="gym-guru" border="0"></a> */}
           <img

@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../Contact/Contact";
 import Services from "../MySkills/Services";
 import Portfolio from "../Projects/Portfolio";
 import Banner from "./Banner";
@@ -10,6 +11,7 @@ const Home = ({ open, setOpen }) => {
       <Banner open={open} setOpen={setOpen}></Banner>
       <Services></Services>
       <Portfolio></Portfolio>
+      <Contact></Contact>
     </div>
   );
 };
