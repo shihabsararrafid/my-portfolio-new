@@ -45,7 +45,14 @@ const Sidebar = ({ open, setOpen }) => {
         <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">Contact</h1>
         <hr className="bg-[#777f8b]" />
         <h1 className="text-xl font-bold text-[#1E72EE] hover:text-[#1E72EE] my-4 mx-[30px]">
-          Download Resume
+          <a
+            href="https://drive.google.com/file/d/1rSp55Bsd2tjL2sCkrlQRXull1vN1bH3Z/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Download Resume
+          </a>
         </h1>
         <hr className="bg-[#777f8b]" />
         <div className="social-part my-7 flex justify-center gap-4">

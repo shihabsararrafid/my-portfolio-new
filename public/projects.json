@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "name":"Toolex Factory",
+        "liveSite":"https://toolex-manufacturer.web.app/",
+        "client-side":"",
+        "server-side":"",
+        "img":"https://i.ibb.co/xSdgVj1/toolex.png"
+    },
+    {
+        "id":2,
+        "name":"Electra Warehouse",
+        "liveSite":"https://electra-warehouse-manage.web.app/",
+        "client-side":"",
+        "server-side":"",
+        "img":"https://i.ibb.co/WHL3cWB/electra-warehouse.png"
+    },
+    {
+        "id":3,
+        "name":"Gym Guru",
+        "liveSite":"https://gym-guru-86903.web.app/",
+        "client-side":"",
+        "server-side":"",
+        "img":"https://i.ibb.co/qF0508X/gym-guru.png"
+
+    },
+    
+    
+    {
+        "id":4,
+        "name":"Mobile Finder",
+        "liveSite":"https://mobile-finder-rafid.netlify.app/",
+        "client-side":"",
+        "server-side":"",
+        "img":"https://i.ibb.co/vjPZ38M/mobile-finder.png"
+    },
+    {
+        "id":5,
+        "name":"Watch Lover",
+        "liveSite":"https://lucky-one-rafid.netlify.app/",
+        "client-side":"",
+        "server-side":"",
+        "img":"https://i.ibb.co/g4CJX9b/watch-lover.png"
+    },
+    {
+        "id":6,
+        "name":"Product Analysis",
+        "liveSite":"https://product-analysis-rafid.netlify.app/home",
+        "client-side":"",
+        "server-side":"",
+       
+        "img":"https://i.ibb.co/stPzMQW/laptop-Mania.png"
+    }
+]

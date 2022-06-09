@@ -7,7 +7,14 @@ const Banner = ({ open, setOpen }) => {
   return (
     <div>
       <button className="btn bg-[#1E72EE] hover:bg-white hover:text-[#1E72EE] lg:hidden">
-        Download Resume
+        <a
+          href="https://drive.google.com/file/d/1rSp55Bsd2tjL2sCkrlQRXull1vN1bH3Z/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          Download Resume
+        </a>
       </button>
       <h1
         onClick={() => setOpen(!open)}
@@ -49,6 +56,15 @@ const Banner = ({ open, setOpen }) => {
         <span className="banner-text">e</span>
         <span className="banner-text">r</span>
         <br />
+        <p className="text-gray-400 text-lg font-mono">
+          Front End Developer / React developer /Javascript Developer/Problem
+          Solver{" "}
+        </p>
+        <p className="text-[#1E72EE] text-2xl lg:w-[70%] w-[90%] lg:text-3xl">
+          {" "}
+          I think ,I code and I make beautifully simple things, and I love what
+          I do.
+        </p>
         <button className="btn px-8 text-xl  py-3 my-7 bg-[#1E72EE] block mx-auto">
           Contact Me
         </button>

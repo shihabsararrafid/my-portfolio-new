@@ -1,11 +1,15 @@
 import React from "react";
+import Services from "../MySkills/Services";
+import Portfolio from "../Projects/Portfolio";
 import Banner from "./Banner";
 import Sidebar from "./Sidebar";
 
 const Home = ({ open, setOpen }) => {
   return (
-    <div className="bg-[#1D1D1D] w-[100%] min-h-screen lg:w-[90%]">
+    <div className="bg-[#1D1D1D] w-full min-h-screen lg:w-[90%]">
       <Banner open={open} setOpen={setOpen}></Banner>
+      <Services></Services>
+      <Portfolio></Portfolio>
     </div>
   );
 };
