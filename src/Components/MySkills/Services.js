@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="mx-10 my-20">
+    <div className="mx-10 text-black my-20">
       <h1 className="text-[#1E72EE] my-10 font-bold text-4xl">
         What Services I can Provide:
       </h1>

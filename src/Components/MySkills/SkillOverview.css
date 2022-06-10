@@ -1,0 +1,36 @@
+.progress-bar{
+    
+	height: 5px;
+	margin-top: 10px;
+	border: 1px solid #565656;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #1E72EE;
+}
+
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: #1E72EE;
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+.Front-end {
+    width: 85%;
+}
+
+.Back-end {
+    width: 70%;
+}
+
+.Database {
+    width: 55%;
+}
+
+.Problem-solving {
+    width: 75%;
+}
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}

@@ -8,7 +8,7 @@ const Contact = () => {
   }
   return (
     <div id="contact" className="lg:w-[50%] md:w-[75%] w-full mx-auto">
-      <h1 className="text-[#1E72EE] text-5xl font-bold text-center">
+      <h1 className="text-[#1E72EE] my-5 text-5xl font-bold text-center">
         Get in Touch{" "}
       </h1>
       <h1 className="text-white font-mono font-semibold  text-xl text-justify">
