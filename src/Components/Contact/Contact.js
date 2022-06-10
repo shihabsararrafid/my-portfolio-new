@@ -7,7 +7,7 @@ const Contact = () => {
     alert("Thanks For Your Interest!");
   }
   return (
-    <div className="lg:w-[50%] md:w-[75%] w-full mx-auto">
+    <div id="contact" className="lg:w-[50%] md:w-[75%] w-full mx-auto">
       <h1 className="text-[#1E72EE] text-5xl font-bold text-center">
         Get in Touch{" "}
       </h1>
@@ -40,7 +40,7 @@ const Contact = () => {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           placeholder="Your Message"
-          className=" focus:border-b-2 focus:border-b-[#1E72EE] bg-[#2B2B2B] outline-none h-[110px] rounded-lg w-full"
+          className=" focus:border-b-2 text-white focus:border-b-[#1E72EE] bg-[#2B2B2B] outline-none h-[110px] rounded-lg w-full"
           id="message"
           name="message"
         />

@@ -6,7 +6,7 @@ import { SiCodeforces } from "react-icons/si";
 import { Link } from "react-router-dom";
 import useOpen from "../UseOpen";
 const Sidebar = ({ open, setOpen }) => {
-  console.log("from banner ", open);
+  //console.log("from banner ", open);
   return (
     <div
       className={`lg:w-[250px] absolute top-0 lg:sticky w-[300px] ${
@@ -40,16 +40,22 @@ const Sidebar = ({ open, setOpen }) => {
           <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">About</h1>
         </Link>
         <hr className="bg-[#777f8b]" />
-        <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[70px]">
-          My Skills
-        </h1>
+        <Link to="/skills">
+          <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[70px]">
+            My Skills
+          </h1>
+        </Link>
         <hr className="bg-[#777f8b]" />
 
         <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">
           Projects
         </h1>
         <hr className="bg-[#777f8b]" />
-        <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">Contact</h1>
+        <Link to="/home#contact">
+          <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">
+            Contact
+          </h1>
+        </Link>
         <hr className="bg-[#777f8b]" />
         <h1 className="text-xl font-bold text-[#1E72EE] hover:text-[#1E72EE] my-4 mx-[30px]">
           <a
@@ -93,7 +99,11 @@ const Sidebar = ({ open, setOpen }) => {
               className="hover:text-[#1E72EE] "
             ></FaHackerrank>
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://codeforces.com/profile/sararRafid"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <SiCodeforces
               title="Codeforces"
               className="hover:text-[#1E72EE] "

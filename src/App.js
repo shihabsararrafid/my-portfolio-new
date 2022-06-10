@@ -8,6 +8,7 @@ import Projects from "./Components/Projects/Projects";
 import { useState } from "react";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
+import MySkills from "./Components/MySkills/MySkills";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -26,6 +27,10 @@ function App() {
             element={<Home open={open} setOpen={setOpen}></Home>}
           ></Route>
           <Route path="contact" element={<Contact></Contact>}></Route>
+          <Route
+            path="skills"
+            element={<MySkills open={open} setOpen={setOpen}></MySkills>}
+          ></Route>
           <Route path="projects" element={<Projects></Projects>}></Route>
           <Route
             path="about"
