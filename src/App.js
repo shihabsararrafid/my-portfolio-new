@@ -7,6 +7,7 @@ import Contact from "./Components/Contact/Contact";
 import Projects from "./Components/Projects/Projects";
 import { useState } from "react";
 import Footer from "./Components/Footer/Footer";
+import About from "./Components/About/About";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -26,6 +27,10 @@ function App() {
           ></Route>
           <Route path="contact" element={<Contact></Contact>}></Route>
           <Route path="projects" element={<Projects></Projects>}></Route>
+          <Route
+            path="about"
+            element={<About open={open} setOpen={setOpen}></About>}
+          ></Route>
         </Routes>
       </div>
       <Footer></Footer>

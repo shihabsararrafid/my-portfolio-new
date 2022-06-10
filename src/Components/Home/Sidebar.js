@@ -31,8 +31,14 @@ const Sidebar = ({ open, setOpen }) => {
           Front end Developer
         </h1>
       </div>
-      <div className="lower-part mt-10">
-        <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">About</h1>
+      <div className="lower-part mt-2">
+        <Link to="/home">
+          <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">Home</h1>
+        </Link>
+        <hr className="bg-[#777f8b]" />
+        <Link to="/about">
+          <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">About</h1>
+        </Link>
         <hr className="bg-[#777f8b]" />
         <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[70px]">
           My Skills
