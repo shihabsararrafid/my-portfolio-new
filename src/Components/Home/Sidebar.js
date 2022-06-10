@@ -1,8 +1,9 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
-import { FaHackerrank } from "react-icons/fa";
+import { FaHackerrank, FaStackOverflow } from "react-icons/fa";
 import { SiCodeforces } from "react-icons/si";
+import { Link } from "react-router-dom";
 import useOpen from "../UseOpen";
 const Sidebar = ({ open, setOpen }) => {
   console.log("from banner ", open);
@@ -56,10 +57,52 @@ const Sidebar = ({ open, setOpen }) => {
         </h1>
         <hr className="bg-[#777f8b]" />
         <div className="social-part my-7 flex justify-center gap-4">
-          <BsLinkedin className="hover:text-[#1E72EE] text-white"></BsLinkedin>
-          <AiFillGithub className="hover:text-[#1E72EE] "></AiFillGithub>
-          <FaHackerrank className="hover:text-[#1E72EE] "></FaHackerrank>
-          <SiCodeforces className="hover:text-[#1E72EE] "></SiCodeforces>
+          <a
+            href="https://www.linkedin.com/in/shihab-sarar-islam-rafid-71ba2022b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsLinkedin
+              title="Linkedin"
+              className="hover:text-[#1E72EE] text-white"
+            ></BsLinkedin>
+          </a>
+          <a
+            href="https://github.com/shihabsararrafid"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillGithub
+              title="Github"
+              className="hover:text-[#1E72EE] "
+            ></AiFillGithub>
+          </a>
+          <a
+            href="https://www.hackerrank.com/shrafid_532"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaHackerrank
+              title="HackerRank"
+              className="hover:text-[#1E72EE] "
+            ></FaHackerrank>
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <SiCodeforces
+              title="Codeforces"
+              className="hover:text-[#1E72EE] "
+            ></SiCodeforces>
+          </a>
+          <a
+            href="https://stackoverflow.com/users/17802958/sarar-rafid"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaStackOverflow
+              title="Stackoverflow "
+              className="hover:text-[#1E72EE]"
+            ></FaStackOverflow>
+          </a>
         </div>
       </div>
     </div>

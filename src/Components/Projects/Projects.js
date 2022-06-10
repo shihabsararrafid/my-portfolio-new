@@ -10,7 +10,7 @@ const Projects = () => {
   }, []);
   return (
     <div>
-      <h1>Projects</h1>
+      <h1 className="text-5xl font-bold text-[#1E72EE] my-20 ">Projects</h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         {project.map((p) => (
           <SingProject
