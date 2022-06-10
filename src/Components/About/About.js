@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
 import ShowBar from "../Hooks/ShowBar";
+import Courses from "./Courses";
 import Education from "./Education";
 const About = ({ open, setOpen }) => {
   return (
@@ -45,6 +46,7 @@ const About = ({ open, setOpen }) => {
         </div>
       </div>
       <Education></Education>
+      <Courses></Courses>
     </div>
   );
 };

@@ -21,7 +21,7 @@ const MySkills = ({ open, setOpen }) => {
             <p className="mr-2 w-[10%]">Html</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="80"
               max="100"
             ></progress>
             <p>90%</p>
@@ -30,82 +30,82 @@ const MySkills = ({ open, setOpen }) => {
             <p className="mr-2 w-[10%]">Css</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="80"
               max="100"
             ></progress>
-            <p>90%</p>
+            <p>80%</p>
           </div>
           <div className="flex  items-center">
             <p className="mr-2 w-[10%]">JavaScript</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="80"
               max="100"
             ></progress>
-            <p>90%</p>
+            <p>80%</p>
           </div>
           <div className="flex  items-center">
             <p className="mr-2 w-[10%]">C</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="80"
               max="100"
             ></progress>
-            <p>90%</p>
+            <p>80%</p>
           </div>
           <div className="flex  items-center">
             <p className="mr-2 w-[10%]">React Js</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="60"
               max="100"
             ></progress>
-            <p>90%</p>
+            <p>60%</p>
           </div>
           <div className="flex  items-center">
             <p className="mr-2 w-[10%]">Firebase Auth</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="70"
               max="100"
             ></progress>
-            <p>90%</p>
+            <p>70%</p>
           </div>
           <div className="flex  items-center">
             <p className="mr-2  lg:w-[10%]">Node Js</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="50"
               max="100"
             ></progress>
-            <p>90%</p>
+            <p>50%</p>
           </div>
           <div className="flex  items-center">
             <p className="mr-2 w-[10%]">Mongo db</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="50"
               max="100"
             ></progress>
-            <p>90%</p>
+            <p>50%</p>
           </div>
           <div className="flex  items-center">
             <p className="mr-2 w-[10%]">Express JS</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="50"
               max="100"
             ></progress>
-            <p>90%</p>
+            <p>50%</p>
           </div>
           <div className="flex  items-center">
             <p className="mr-2 w-[10%]">TypeScript</p>
             <progress
               className="block progress progress-primary border-2 border-white h-[15px] w-full lg:w-[50%] my-5"
-              value="90"
+              value="10"
               max="100"
             ></progress>
-            <p>90%</p>
+            <p>10%</p>
           </div>
 
           {/* <progress
