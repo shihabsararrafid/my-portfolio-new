@@ -5,7 +5,12 @@ const SingProject = ({ id, img, name, liveSite }) => {
   const navigate = useNavigate();
   console.log(id);
   return (
-    <div class="container mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
+    <div
+      class="container mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <div class="text-center">
         <h2 class="font-semibold lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-[#08fdd8] md:w-full w-9/12 mx-auto">
           {name}

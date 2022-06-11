@@ -10,7 +10,12 @@ const Services = ({ open }) => {
         ""
       ) : (
         <div className="grid gap-10 grid-cols-1 lg:grid-cols-2">
-          <div class="card w-full bg-base-100 shadow-xl">
+          <div
+            class="card w-full bg-base-100 shadow-xl"
+            data-aos="flip-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div class="card-body">
               <figure>
                 <img
@@ -31,7 +36,12 @@ const Services = ({ open }) => {
               </div>
             </div>
           </div>
-          <div class="card w-full bg-base-100 shadow-xl">
+          <div
+            class="card w-full bg-base-100 shadow-xl"
+            data-aos="flip-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div class="card-body">
               <figure>
                 <img
@@ -54,7 +64,12 @@ const Services = ({ open }) => {
               </div>
             </div>
           </div>
-          <div class="card w-full bg-base-100 shadow-xl">
+          <div
+            class="card w-full bg-base-100 shadow-xl"
+            data-aos="flip-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div class="card-body">
               <figure>
                 <img
@@ -78,7 +93,12 @@ const Services = ({ open }) => {
               </div>
             </div>
           </div>
-          <div class="card w-full bg-base-100 shadow-xl">
+          <div
+            class="card w-full bg-base-100 shadow-xl"
+            data-aos="flip-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div class="card-body">
               <figure>
                 <img
@@ -99,7 +119,12 @@ const Services = ({ open }) => {
               </div>
             </div>
           </div>
-          <div class="card w-full bg-base-100 shadow-xl">
+          <div
+            class="card w-full bg-base-100 shadow-xl"
+            data-aos="flip-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div class="card-body">
               <figure>
                 <img

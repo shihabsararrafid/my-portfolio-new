@@ -17,7 +17,12 @@ const MySkills = ({ open, setOpen }) => {
         ""
       ) : (
         <div className="mx-auto">
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2 w-[10%]">Html</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
@@ -26,7 +31,12 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>90%</p>
           </div>
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2 w-[10%]">Css</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
@@ -35,7 +45,12 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>80%</p>
           </div>
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2 w-[10%]">JavaScript</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
@@ -44,7 +59,12 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>80%</p>
           </div>
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2 w-[10%]">C</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
@@ -53,7 +73,12 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>80%</p>
           </div>
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2 w-[10%]">React Js</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
@@ -62,7 +87,12 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>60%</p>
           </div>
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2 w-[10%]">Firebase Auth</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
@@ -71,7 +101,12 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>70%</p>
           </div>
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2  lg:w-[10%]">Node Js</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
@@ -80,7 +115,12 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>50%</p>
           </div>
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2 w-[10%]">Mongo db</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
@@ -89,7 +129,12 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>50%</p>
           </div>
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2 w-[10%]">Express JS</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
@@ -98,7 +143,12 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>50%</p>
           </div>
-          <div className="flex  items-center">
+          <div
+            className="flex  items-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <p className="mr-2 w-[10%]">TypeScript</p>
             <progress
               className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
