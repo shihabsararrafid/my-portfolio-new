@@ -30,7 +30,7 @@ const Portfolio = () => {
         </p>
         <Link to="/projects">
           <button
-            className="btn w-[40%] ml-20 btn-primary "
+            className="btn lg:w-[40%] mt-10 mx-auto block  md:w-[55%] w-[80%]  lg:ml-20 btn-primary "
             data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="1500"

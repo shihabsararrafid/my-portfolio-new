@@ -67,9 +67,9 @@ const Contact = () => {
           field="message"
           errors={state.errors}
         />
-        <div className="flex my-7 justify-end">
+        <div className="flex py-7 lg:justify-end">
           <button
-            className="btn block  text-sm md:w-[50%] lg:w-[35%] w-full btn-primary"
+            className="btn block mx-auto  text-sm md:w-[55%] lg:w-[35%] w-[75%] btn-primary"
             type="submit"
             disabled={state.submitting}
             data-aos="zoom-in"
