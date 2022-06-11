@@ -5,7 +5,7 @@ const SkillOverView = () => {
   const navigate = useNavigate();
   return (
     <div className="text-white  px-10">
-      <h1 className="text-5xl my-10 text-[#1E72EE] font-bold">
+      <h1 className="text-5xl my-10 text-[#08fdd8] font-bold">
         My Skills & Experience
       </h1>
       <div className="grid grid-cols-1 gap-x-4 gap-y-10 lg:grid-cols-2">
@@ -20,14 +20,14 @@ const SkillOverView = () => {
           <p>
             Visit my{" "}
             <a
-              className="text-[#1E72EE] font-bold text-lg"
+              className="text-[#08fdd8] font-bold text-lg"
               href="https://www.linkedin.com/in/shihab-sarar-islam-rafid-71ba2022b/"
               target="_blank"
             >
               LinkedIn profile
             </a>{" "}
             for more details or just{" "}
-            <span navigate="/home" className="font-bold text-[#1E72EE] text-lg">
+            <span navigate="/home" className="font-bold text-[#08fdd8] text-lg">
               <Link to="/contact">contact me</Link>
             </span>
             .

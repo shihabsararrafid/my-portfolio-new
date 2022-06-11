@@ -5,7 +5,7 @@ import Projects from "./Projects";
 const Portfolio = () => {
   return (
     <div className="text-white  px-10 mb-0 lg:my-36 text-lg w-full ">
-      <h1 className="text-5xl font-bold mb-5 font-serif text-[#1E72EE] ">
+      <h1 className="text-5xl font-bold mb-5 font-serif text-[#08fdd8] ">
         My Portfolio
       </h1>
       <div className="grid lg:grid-cols-2 justify-around items-center">
@@ -13,7 +13,7 @@ const Portfolio = () => {
           A small collection of recent projects done by me . All of the projects
           were done by myself individually . It is just a starting for me .
           Interested to see more . Visit{" "}
-          <span className="text-[#1E72EE] font-semibold font-mono">
+          <span className="text-[#08fdd8] font-semibold font-mono">
             my project
           </span>{" "}
           page{" "}

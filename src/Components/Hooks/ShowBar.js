@@ -4,7 +4,7 @@ const ShowBar = ({ open, setOpen }) => {
   return (
     <div>
       <button
-        className={`btn bg-[#1E72EE]  hover:text-[#1E72EE] ${
+        className={`btn bg-[#08fdd8]  hover:text-[#08fdd8] ${
           open ? "bg-transparent" : ""
         } ${open ? "text-transparent" : ""} ${
           open ? "border-none" : ""

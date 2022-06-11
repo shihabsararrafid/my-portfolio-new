@@ -27,11 +27,11 @@ const SingProject = ({ id, img, name, liveSite }) => {
               </h1>
               <button
                 onClick={() => navigate("/projectdetails", { state: { id } })}
-                className="btn block mt-1 bg-[#1E72EE]"
+                className="btn block mt-2 btn-primary"
               >
                 See Details
               </button>
-              <button className="btn block mt-1 btn-primary">
+              <button className="btn block mt-2 btn-primary">
                 <a href={liveSite} target="_blank" rel="noopener noreferrer">
                   {" "}
                   Live Preview

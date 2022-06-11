@@ -9,7 +9,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="lg:w-[50%] md:w-[75%] w-full mx-auto">
-      <h1 className="text-[#1E72EE] my-5 text-5xl font-bold text-center">
+      <h1 className="text-[#08fdd8] my-5 text-5xl font-bold text-center">
         Get in Touch{" "}
       </h1>
       <h1 className="text-white font-mono font-semibold  text-xl text-justify">
@@ -20,7 +20,7 @@ const Contact = () => {
 
         <input
           placeholder="Your Name"
-          className=" text-white outline-none bg-[#2B2B2B] focus:border-b-2 focus:border-b-[#1E72EE] h-[45px] rounded-lg w-full border-0"
+          className=" text-white p-2 outline-none bg-[#2B2B2B] focus:border-b-2 focus:border-b-[#08fdd8] h-[45px] rounded-lg w-full border-0"
           id="name"
           type="name"
           name="name"
@@ -31,7 +31,7 @@ const Contact = () => {
         <ValidationError prefix="Name" field="name" errors={state.errors} />
         <input
           placeholder="Your Email"
-          className="  text-white outline-none bg-[#2B2B2B] focus:border-b-2 focus:border-b-[#1E72EE] h-[45px] rounded-lg w-full border-0"
+          className="  text-white p-2 outline-none bg-[#2B2B2B] focus:border-b-2 focus:border-b-[#08fdd8] h-[45px] rounded-lg w-full border-0"
           id="email"
           type="email"
           name="email"
@@ -41,7 +41,7 @@ const Contact = () => {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           placeholder="Your Message"
-          className=" focus:border-b-2 text-white focus:border-b-[#1E72EE] bg-[#2B2B2B] outline-none h-[110px] rounded-lg w-full"
+          className=" focus:border-b-2 p-2 text-white focus:border-b-[#08fdd8] bg-[#2B2B2B] outline-none h-[110px] rounded-lg w-full"
           id="message"
           name="message"
         />

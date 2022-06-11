@@ -19,7 +19,9 @@ const ProjectDetails = ({ open, setOpen }) => {
   return (
     <div className="bg-[#1D1D1D]  text-white px-10 w-full min-h-screen lg:w-[90%]">
       <ShowBar open={open} setOpen={setOpen}></ShowBar>
-      <h1 className="text-5xl text-blue-500 my-7 font-bold">Project Details</h1>
+      <h1 className="text-5xl text-[#08fdd8] my-7 font-bold">
+        Project Details
+      </h1>
       <h1 className="text-5xl font-bold font-mono text-white mx-auto md:w-[80%] w-full lg:w-[50%] my-5">
         {selectedItem?.name}
       </h1>
@@ -40,10 +42,12 @@ const ProjectDetails = ({ open, setOpen }) => {
         </figure>
         <div class="card-body">
           <div>
-            <h1 className="text-2xl">Project Overview:</h1>
+            <h1 className="text-2xl text-[#08fdd8]">Project Overview:</h1>
             <p>{selectedItem?.details}</p>
           </div>
-          <h2 class="card-title text-center">Used Technologies:</h2>
+          <h2 class="card-title text-center text-[#08fdd8]">
+            Used Technologies:
+          </h2>
           <div className="flex flex-wrap w-[80%] ">
             {tech?.map((t) => (
               <div class="badge badge-outline mx-1 my-1">{t}</div>

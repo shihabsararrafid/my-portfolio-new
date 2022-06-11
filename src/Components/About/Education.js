@@ -3,7 +3,7 @@ import React from "react";
 const Education = () => {
   return (
     <div className="text-white">
-      <h1 className="text-5xl text-blue-600 font-mono font-bold">
+      <h1 className="text-5xl text-[#08fdd8] font-mono font-bold">
         Educational Background:
       </h1>
       <ul class="steps mt-20 text-center block md:ml-32 ml-0 lg:ml-64 steps-vertical">

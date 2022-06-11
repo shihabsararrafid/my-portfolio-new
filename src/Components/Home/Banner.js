@@ -8,7 +8,7 @@ const Banner = ({ open, setOpen }) => {
   return (
     <div>
       <button
-        className={`btn bg-[#1E72EE]  hover:text-[#1E72EE] ${
+        className={`btn bg-[#08fdd8]  hover:text-[#08fdd8] ${
           open ? "bg-transparent" : ""
         } ${open ? "text-transparent" : ""} ${
           open ? "border-none" : ""
@@ -33,7 +33,7 @@ const Banner = ({ open, setOpen }) => {
           <AiOutlineBars></AiOutlineBars>
         )}
       </h1>
-      <div className="text-white ml-0 lg:ml-9 mt-14 text-5xl lg:text-7xl w-full lg:w-[50%] font-semibold">
+      <div className="text-white  ml-0 md:mx-10  lg:ml-9 mt-14 text-5xl lg:text-7xl w-full md:w-[55%] lg:w-[50%] font-semibold">
         <div className="">
           <span className="banner-text">H</span>
           <span className="banner-text">i</span>
@@ -67,18 +67,20 @@ const Banner = ({ open, setOpen }) => {
           Front End Developer / React developer /Javascript Developer/Problem
           Solver{" "}
         </p>
-        <p className="text-[#1E72EE] text-2xl lg:w-[70%] w-[90%] lg:text-3xl">
+        <p className="text-[#08FDD8] text-2xl lg:w-[70%] w-[90%] lg:text-3xl">
           {" "}
           I think ,I code and I make beautifully simple things, and I love what
           I do.
         </p>
-        <button
-          className={`btn px-8 text-xl  py-3 my-7 bg-[#1E72EE] ${
-            open ? "hidden" : "block"
-          }  mx-auto`}
-        >
-          Contact Me
-        </button>
+        <div className="flex justify-end w-full">
+          <button
+            className={`btn px-8  text-xl text-black  py-3 my-7 bg-[#08FDD8] ${
+              open ? "hidden" : "block"
+            }  mx-auto`}
+          >
+            Contact Me
+          </button>
+        </div>
       </div>
     </div>
   );

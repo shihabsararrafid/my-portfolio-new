@@ -7,18 +7,18 @@ const About = ({ open, setOpen }) => {
   return (
     <div className="bg-[#1D1D1D] px-10 w-full min-h-screen lg:w-[90%]">
       <ShowBar open={open} setOpen={setOpen}></ShowBar>
-      <h1 className="text-blue-600   text-6xl my-10 font-bold font-mono">
+      <h1 className="text-[#08fdd8]   text-6xl my-10 font-bold font-mono">
         {" "}
         Me , Myself and I
       </h1>
       <div className="overView">
-        <h1 className="text-blue-600   border-white text-3xl font-semibold ">
+        <h1 className="text-[#08fdd8]   border-white text-3xl font-semibold ">
           Overview
         </h1>
         <div className="grid gap-6 grid-cols-1 lg:grid-cols-2">
           <p className="text-white px-1 lg:px-5 text-justify py-5 text-2xl">
             I am{" "}
-            <span className="font-bold text-blue-600">
+            <span className="font-bold text-[#08fdd8]">
               Shihab Sarar Islam Rafid
             </span>{" "}
             , from Netrakona,Bangladesh but I am now living in Rajshahi

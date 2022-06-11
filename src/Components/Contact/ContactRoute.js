@@ -23,7 +23,7 @@ const ContactRoute = ({ open, setOpen }) => {
           >
             <BsLinkedin
               title="Linkedin"
-              className="text-3xl hover:text-[#1E72EE] text-white"
+              className="text-3xl hover:text-[#08fdd8] text-white"
             ></BsLinkedin>
           </a>
           <a
@@ -33,7 +33,7 @@ const ContactRoute = ({ open, setOpen }) => {
           >
             <AiFillGithub
               title="Github"
-              className="text-3xl hover:text-[#1E72EE] "
+              className="text-3xl hover:text-[#08fdd8] "
             ></AiFillGithub>
           </a>
           <a
@@ -43,7 +43,7 @@ const ContactRoute = ({ open, setOpen }) => {
           >
             <FaHackerrank
               title="HackerRank"
-              className="text-3xl hover:text-[#1E72EE] "
+              className="text-3xl hover:text-[#08fdd8] "
             ></FaHackerrank>
           </a>
           <a
@@ -53,7 +53,7 @@ const ContactRoute = ({ open, setOpen }) => {
           >
             <SiCodeforces
               title="Codeforces"
-              className="text-3xl hover:text-[#1E72EE] "
+              className="text-3xl hover:text-[#08fdd8] "
             ></SiCodeforces>
           </a>
           <a
@@ -63,7 +63,7 @@ const ContactRoute = ({ open, setOpen }) => {
           >
             <FaStackOverflow
               title="Stackoverflow "
-              className="text-3xl hover:text-[#1E72EE]"
+              className="text-3xl hover:text-[#08fdd8]"
             ></FaStackOverflow>
           </a>
         </div>

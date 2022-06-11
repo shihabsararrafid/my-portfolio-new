@@ -2,8 +2,8 @@ import React from "react";
 
 const Services = ({ open }) => {
   return (
-    <div className="mx-10 text-black my-20">
-      <h1 className="text-[#1E72EE] my-10 font-bold text-4xl">
+    <div className=" text-black my-20">
+      <h1 className="text-[#08fdd8] my-10 font-bold text-4xl">
         What Services I can Provide:
       </h1>
       {open ? (
