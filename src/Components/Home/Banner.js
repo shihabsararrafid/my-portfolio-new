@@ -8,7 +8,7 @@ const Banner = ({ open, setOpen }) => {
   return (
     <div>
       <button
-        className={`btn bg-[#08fdd8]  hover:text-[#08fdd8] ${
+        className={`btn bg-[#08fdd8] text-black   ${
           open ? "bg-transparent" : ""
         } ${open ? "text-transparent" : ""} ${
           open ? "border-none" : ""
