@@ -16,7 +16,7 @@ const About = ({ open, setOpen }) => {
           Overview
         </h1>
         <div className="grid gap-6 grid-cols-1 lg:grid-cols-2">
-          <p className="text-white px-5 text-justify py-5 text-2xl">
+          <p className="text-white px-1 lg:px-5 text-justify py-5 text-2xl">
             I am{" "}
             <span className="font-bold text-blue-600">
               Shihab Sarar Islam Rafid
@@ -36,7 +36,7 @@ const About = ({ open, setOpen }) => {
             and algorithms.
           </p>
           <div class="avatar">
-            <div class="w-[90%] py-5 rounded-2xl">
+            <div class="lg:w-[90%] w-full py-5 rounded-2xl">
               <img
                 src="https://i.ibb.co/QvN700T/DSC03867-removebg-preview.png"
                 alt=""

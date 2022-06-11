@@ -8,6 +8,7 @@
         "shot3":"https://i.ibb.co/TTQYYcH/tool-3.png",
         "clientSide":"https://github.com/shihabsararrafid/manufacturer-client",
         "serverSide":"https://github.com/shihabsararrafid/manufacturer-server",
+        "tehnologies":"Tailwind, React , Firebase Authentication, Font Awesome Icon , React Router Dom, React Icon, React Form Hook ,Express js,Mongo Db, Heroku",
         "img":"https://i.ibb.co/xSdgVj1/toolex.png"
     },
     {
@@ -19,6 +20,7 @@
         "shot3":"https://i.ibb.co/rf9mmHG/elec-3.png",
         "clientSide":"https://github.com/shihabsararrafid/warehouse-management-client",
         "serverSide":"https://github.com/shihabsararrafid/warehouse-management-server",
+        "tehnologies":"Tailwind, React , Firebase Authentication, Font Awesome Icon , React Router Dom, React Icon, React Form Hook ,Express js,Mongo Db, Heroku",
         "img":"https://i.ibb.co/WHL3cWB/electra-warehouse.png"
     },
     {
@@ -30,6 +32,7 @@
         "shot3":"https://i.ibb.co/zrCFGD4/gym-3.png",
         "clientSide":"https://github.com/shihabsararrafid/gym-guru-client",
         "serverSide":" ",
+        "tehnologies":"Tailwind, React , FirebaseAuthentication, Font Awesome Icon , React Router Dom, React Icon, React Form Hook",
         "img":"https://i.ibb.co/qF0508X/gym-guru.png"
 
     },
@@ -44,6 +47,7 @@
         "shot3":"https://i.ibb.co/vkcrM3d/mobile-03.png",
         "clientSide":"https://github.com/shihabsararrafid/phone-lover",
         "serverSide":"",
+        "tehnologies":"Tailwind Css, Html ,javascript dom,  Font Awesome Icon ,Rest Api ",
         "img":"https://i.ibb.co/vjPZ38M/mobile-finder.png"
     },
     {
@@ -55,6 +59,7 @@
         "shot3":"https://i.ibb.co/4tPrLNj/watch-03.png",
         "clientSide":"https://github.com/shihabsararrafid/lucky-one",
         "serverSide":"",
+        "tehnologies":"CSS, React ",
         "img":"https://i.ibb.co/g4CJX9b/watch-lover.png"
     },
     {
@@ -66,7 +71,7 @@
         "shot3":"https://i.ibb.co/Kspdj6K/laptop-3.png",
         "clientSide":"https://github.com/shihabsararrafid/product-analysis",
         "serverSide":"",
-       
+        "tehnologies":"Tailwind, React ,  React Router Dom",
         "img":"https://i.ibb.co/stPzMQW/laptop-Mania.png"
     }
 ]
