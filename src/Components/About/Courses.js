@@ -2,7 +2,7 @@ import React from "react";
 
 const Courses = () => {
   return (
-    <div className="text-white my-10">
+    <div className="text-white py-10">
       <h1
         className="text-5xl font-bold text-[#08fdd8] my-10"
         data-aos="fade-up"
