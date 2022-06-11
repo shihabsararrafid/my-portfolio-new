@@ -33,7 +33,12 @@ const SingProject = ({ id, img, name, liveSite }) => {
               >
                 See Details
               </button>
-              <button className="btn block mt-2 btn-primary">
+              <button
+                className="btn block mt-2 btn-primary"
+                data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
                 <a href={liveSite} target="_blank" rel="noopener noreferrer">
                   {" "}
                   Live Preview

@@ -9,13 +9,29 @@ const Contact = () => {
 
   return (
     <div id="contact" className="lg:w-[50%] md:w-[75%] w-full mx-auto">
-      <h1 className="text-[#08fdd8] my-5 text-5xl font-bold text-center">
+      <h1
+        className="text-[#08fdd8] my-5 text-5xl font-bold text-center"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         Get in Touch{" "}
       </h1>
-      <h1 className="text-white font-mono font-semibold  text-xl text-justify">
+      <h1
+        className="text-white font-mono font-semibold  text-xl text-justify"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         If you have any request or query don't hesitate to fill up the form .{" "}
       </h1>
-      <form action="https://formspree.io/f/myyovjbv" onSubmit={handleSubmit}>
+      <form
+        action="https://formspree.io/f/myyovjbv"
+        onSubmit={handleSubmit}
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="2000"
+      >
         <label htmlFor="name">Name </label>
 
         <input
@@ -56,6 +72,9 @@ const Contact = () => {
             className="btn block  text-sm md:w-[50%] lg:w-[35%] w-full btn-primary"
             type="submit"
             disabled={state.submitting}
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
           >
             Send Message
           </button>

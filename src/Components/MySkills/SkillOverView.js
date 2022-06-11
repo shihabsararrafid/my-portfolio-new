@@ -5,11 +5,20 @@ const SkillOverView = () => {
   const navigate = useNavigate();
   return (
     <div className="text-white  px-10">
-      <h1 className="text-5xl my-10 text-[#08fdd8] font-bold">
+      <h1
+        className="text-5xl my-10 text-[#08fdd8] font-bold"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         My Skills & Experience
       </h1>
       <div className="grid grid-cols-1 gap-x-4 gap-y-10 lg:grid-cols-2">
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <p className="text-xl">
             I create successful responsive websites that are fast, easy to use,
             and built with best practices. The main area of my expertise is
@@ -33,7 +42,11 @@ const SkillOverView = () => {
             .
           </p>
         </div>
-        <div>
+        <div
+          data-aos="fade-left"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <div className="progress-bar-container">
             <h2>Front-end</h2>
             <div className="progress-bar w-[90%] lg:w-[90%]">
@@ -64,7 +77,12 @@ const SkillOverView = () => {
         </div>
       </div>
       <Link to="/skills">
-        <button className="btn btn-primary block mx-auto my-7">
+        <button
+          className="btn btn-primary block mx-auto my-7"
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           See My Details Skill
         </button>
       </Link>

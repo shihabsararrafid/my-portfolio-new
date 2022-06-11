@@ -77,6 +77,9 @@ const Banner = ({ open, setOpen }) => {
             className={`btn px-8  text-xl text-black  py-3 my-7 bg-[#08FDD8] ${
               open ? "hidden" : "block"
             }  mx-auto`}
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
           >
             Contact Me
           </button>

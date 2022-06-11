@@ -3,10 +3,20 @@ import React from "react";
 const Education = () => {
   return (
     <div className="text-white">
-      <h1 className="text-5xl text-[#08fdd8] font-mono font-bold">
+      <h1
+        className="text-5xl text-[#08fdd8] font-mono font-bold"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         Educational Background:
       </h1>
-      <ul class="steps mt-20 text-center block md:ml-32 ml-0 lg:ml-64 steps-vertical">
+      <ul
+        class="steps mt-20 text-center block md:ml-32 ml-0 lg:ml-64 steps-vertical"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <li class="step step-primary">
           <p>
             <h1 className="font-bold text-lg ">
