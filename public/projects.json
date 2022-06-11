@@ -9,6 +9,7 @@
         "clientSide":"https://github.com/shihabsararrafid/manufacturer-client",
         "serverSide":"https://github.com/shihabsararrafid/manufacturer-server",
         "tehnologies":"Tailwind, React , Firebase Authentication, Font Awesome Icon , React Router Dom, React Icon, React Form Hook ,Express js,Mongo Db, Heroku",
+        "details":"This a MERN stack Project for a manufacturer company from where a dealer can buy many products at a time . Moreover user and admin dashboard is created . For more details please visit client side code  ",
         "img":"https://i.ibb.co/xSdgVj1/toolex.png"
     },
     {
@@ -20,6 +21,7 @@
         "shot3":"https://i.ibb.co/rf9mmHG/elec-3.png",
         "clientSide":"https://github.com/shihabsararrafid/warehouse-management-client",
         "serverSide":"https://github.com/shihabsararrafid/warehouse-management-server",
+        "details":"This a MERN stack Project for a warehouse  from where a storekeeper or a company can calculate their every  selling  history and manage therir products availability. Moreover authenticaton and user dashboard is created . For more details please visit client side code  ",
         "tehnologies":"Tailwind, React , Firebase Authentication, Font Awesome Icon , React Router Dom, React Icon, React Form Hook ,Express js,Mongo Db, Heroku",
         "img":"https://i.ibb.co/WHL3cWB/electra-warehouse.png"
     },
@@ -33,6 +35,7 @@
         "clientSide":"https://github.com/shihabsararrafid/gym-guru-client",
         "serverSide":" ",
         "tehnologies":"Tailwind, React , FirebaseAuthentication, Font Awesome Icon , React Router Dom, React Icon, React Form Hook",
+        "details":"This a front end Project for a independent service provider ,a gym tariner where he shows his services he provides and any registered customer can book a service from him . Authentication implemented. For more details please visit client side code  ",
         "img":"https://i.ibb.co/qF0508X/gym-guru.png"
 
     },
@@ -48,6 +51,7 @@
         "clientSide":"https://github.com/shihabsararrafid/phone-lover",
         "serverSide":"",
         "tehnologies":"Tailwind Css, Html ,javascript dom,  Font Awesome Icon ,Rest Api ",
+        "details":"This a front end project  to find a mobile on based of the keyword user search that is mainly the brand name .Data has been loaded from an api . This mainly an rest api related project. For more details please visit client side code  ",
         "img":"https://i.ibb.co/vjPZ38M/mobile-finder.png"
     },
     {
@@ -59,6 +63,7 @@
         "shot3":"https://i.ibb.co/4tPrLNj/watch-03.png",
         "clientSide":"https://github.com/shihabsararrafid/lucky-one",
         "serverSide":"",
+        "details":"This a front end project where any one can add a watch two his cart not more than 3 items and select one randomly from his cart . It is mainly a react single page application. For more details please visit client side code  ",
         "tehnologies":"CSS, React ",
         "img":"https://i.ibb.co/g4CJX9b/watch-lover.png"
     },
@@ -71,6 +76,7 @@
         "shot3":"https://i.ibb.co/Kspdj6K/laptop-3.png",
         "clientSide":"https://github.com/shihabsararrafid/product-analysis",
         "serverSide":"",
+        "details":"This a front end project for showing the reviews from customer where simple react routing system is used with tailwind. For more details please visit client side code  ",
         "tehnologies":"Tailwind, React ,  React Router Dom",
         "img":"https://i.ibb.co/stPzMQW/laptop-Mania.png"
     }

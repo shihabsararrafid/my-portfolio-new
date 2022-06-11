@@ -39,6 +39,10 @@ const ProjectDetails = ({ open, setOpen }) => {
           <img src={selectedItem?.img} alt="Shoes" />
         </figure>
         <div class="card-body">
+          <div>
+            <h1 className="text-2xl">Project Overview:</h1>
+            <p>{selectedItem?.details}</p>
+          </div>
           <h2 class="card-title text-center">Used Technologies:</h2>
           <div className="flex flex-wrap w-[80%] ">
             {tech?.map((t) => (
