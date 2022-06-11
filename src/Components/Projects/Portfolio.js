@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Projects from "./Projects";
 
 const Portfolio = () => {
@@ -17,9 +18,13 @@ const Portfolio = () => {
           </span>{" "}
           page{" "}
         </p>
-        <button className="btn w-[40%] ml-20 btn-primary ">Explore more</button>
+        <Link to="/projects">
+          <button className="btn w-[40%] ml-20 btn-primary ">
+            Explore more
+          </button>
+        </Link>
       </div>
-      <Projects></Projects>
+      <Projects len={3}></Projects>
     </div>
   );
 };

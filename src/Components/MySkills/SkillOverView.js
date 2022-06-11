@@ -14,9 +14,8 @@ const SkillOverView = () => {
             I create successful responsive websites that are fast, easy to use,
             and built with best practices. The main area of my expertise is
             front-end development, HTML, CSS, JS, building small and medium web
-            apps, custom plugins, features, animations, and coding interactive
-            layouts.I also have full-stack developer experience with Node and
-            Mongo Db.
+            apps and coding interactive layouts.I also have full-stack developer
+            experience with Node and Mongo Db.
           </p>
           <p>
             Visit my{" "}

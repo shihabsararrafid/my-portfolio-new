@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-const SingProject = ({ img, name, liveSite }) => {
+const SingProject = ({ id, img, name, liveSite }) => {
+  const navigate = useNavigate();
+  console.log(id);
   return (
     <div class="container mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
       <div class="text-center">
@@ -22,7 +25,10 @@ const SingProject = ({ img, name, liveSite }) => {
               <h1 class="text-[#ec0606] uppercase  font-bold text-xl">
                 {name}
               </h1>
-              <button className="btn block mt-1 bg-[#1E72EE]">
+              <button
+                onClick={() => navigate("/projectdetails", { state: { id } })}
+                className="btn block mt-1 bg-[#1E72EE]"
+              >
                 See Details
               </button>
               <button className="btn block mt-1 btn-primary">

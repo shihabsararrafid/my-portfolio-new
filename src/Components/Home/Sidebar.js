@@ -47,9 +47,11 @@ const Sidebar = ({ open, setOpen }) => {
         </Link>
         <hr className="bg-[#777f8b]" />
 
-        <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">
-          Projects
-        </h1>
+        <Link to="/projects">
+          <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">
+            Projects
+          </h1>
+        </Link>
         <hr className="bg-[#777f8b]" />
         <Link to="/home#contact">
           <h1 className="text-xl hover:text-[#1E72EE] my-4 mx-[81px]">

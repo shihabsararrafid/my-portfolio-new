@@ -3,6 +3,9 @@
         "id":1,
         "name":"Toolex Factory",
         "liveSite":"https://toolex-manufacturer.web.app/",
+        "shot1":"https://i.ibb.co/Mh8q2Q2/tool-1.png",
+        "shot2":"https://i.ibb.co/1n0xkMc/tool-2.png",
+        "shot3":"https://i.ibb.co/TTQYYcH/tool-3.png",
         "client-side":"",
         "server-side":"",
         "img":"https://i.ibb.co/xSdgVj1/toolex.png"
@@ -11,6 +14,9 @@
         "id":2,
         "name":"Electra Warehouse",
         "liveSite":"https://electra-warehouse-manage.web.app/",
+        "shot1":"https://i.ibb.co/hBRhg6g/elec-1.png",
+        "shot2":"https://i.ibb.co/X8NP1YJ/elec-2.png",
+        "shot3":"https://i.ibb.co/rf9mmHG/elec-3.png",
         "client-side":"",
         "server-side":"",
         "img":"https://i.ibb.co/WHL3cWB/electra-warehouse.png"
@@ -19,6 +25,9 @@
         "id":3,
         "name":"Gym Guru",
         "liveSite":"https://gym-guru-86903.web.app/",
+        "shot1":"https://i.ibb.co/bd90K5w/gym-1.png",
+        "shot2":"https://i.ibb.co/sCX8pwg/gym-2.png",
+        "shot3":"https://i.ibb.co/zrCFGD4/gym-3.png",
         "client-side":"",
         "server-side":"",
         "img":"https://i.ibb.co/qF0508X/gym-guru.png"
@@ -30,6 +39,9 @@
         "id":4,
         "name":"Mobile Finder",
         "liveSite":"https://mobile-finder-rafid.netlify.app/",
+        "shot1":"https://i.ibb.co/KFJgkJP/mobile-01.png",
+        "shot2":"https://i.ibb.co/9q25PmY/mobile-02.png",
+        "shot3":"https://i.ibb.co/vkcrM3d/mobile-03.png",
         "client-side":"",
         "server-side":"",
         "img":"https://i.ibb.co/vjPZ38M/mobile-finder.png"
@@ -38,6 +50,9 @@
         "id":5,
         "name":"Watch Lover",
         "liveSite":"https://lucky-one-rafid.netlify.app/",
+        "shot1":"https://i.ibb.co/GTtvbmm/watch-01.png",
+        "shot2":"https://i.ibb.co/YB8QgTR/watch-02.png",
+        "shot3":"https://i.ibb.co/4tPrLNj/watch-03.png",
         "client-side":"",
         "server-side":"",
         "img":"https://i.ibb.co/g4CJX9b/watch-lover.png"
@@ -46,6 +61,9 @@
         "id":6,
         "name":"Product Analysis",
         "liveSite":"https://product-analysis-rafid.netlify.app/home",
+        "shot1":"https://i.ibb.co/D8XF0m6/laptop-1.png",
+        "shot2":"https://i.ibb.co/cLGSSSg/laptop-2.png",
+        "shot3":"https://i.ibb.co/Kspdj6K/laptop-3.png",
         "client-side":"",
         "server-side":"",
        

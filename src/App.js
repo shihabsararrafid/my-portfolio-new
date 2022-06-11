@@ -9,6 +9,8 @@ import { useState } from "react";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import MySkills from "./Components/MySkills/MySkills";
+import Allprojects from "./Components/Projects/Allprojects";
+import ProjectDetails from "./Components/Projects/ProjectDetails";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -31,10 +33,19 @@ function App() {
             path="skills"
             element={<MySkills open={open} setOpen={setOpen}></MySkills>}
           ></Route>
-          <Route path="projects" element={<Projects></Projects>}></Route>
+          <Route
+            path="projects"
+            element={<Allprojects open={open} setOpen={setOpen}></Allprojects>}
+          ></Route>
           <Route
             path="about"
             element={<About open={open} setOpen={setOpen}></About>}
+          ></Route>
+          <Route
+            path="projectdetails"
+            element={
+              <ProjectDetails open={open} setOpen={setOpen}></ProjectDetails>
+            }
           ></Route>
         </Routes>
       </div>
