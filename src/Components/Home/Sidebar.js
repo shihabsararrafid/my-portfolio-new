@@ -32,33 +32,34 @@ const Sidebar = ({ open, setOpen }) => {
         </h1>
       </div>
       <div className="lower-part mt-2">
-        <Link to="/home">
+        <Link to="/home" onClick={() => setOpen(false)}>
           <h1 className="text-xl hover:text-[#08fdd8] my-4 mx-[81px]">Home</h1>
         </Link>
         <hr className="bg-[#777f8b]" />
-        <Link to="/about">
+        <Link to="/about" onClick={() => setOpen(false)}>
           <h1 className="text-xl hover:text-[#08fdd8] my-4 mx-[81px]">About</h1>
         </Link>
         <hr className="bg-[#777f8b]" />
-        <Link to="/skills">
+        <Link to="/skills" onClick={() => setOpen(false)}>
           <h1 className="text-xl hover:text-[#08fdd8] my-4 mx-[70px]">
             My Skills
           </h1>
         </Link>
         <hr className="bg-[#777f8b]" />
 
-        <Link to="/projects">
+        <Link to="/projects" onClick={() => setOpen(false)}>
           <h1 className="text-xl hover:text-[#08fdd8] my-4 mx-[81px]">
             Projects
           </h1>
         </Link>
         <hr className="bg-[#777f8b]" />
-        <Link to="/blogs">
+        <Link to="/blogs" onClick={() => setOpen(false)}>
           <h1 className="text-xl hover:text-[#08fdd8] my-4 mx-[81px]">Blogs</h1>
         </Link>
         <hr className="bg-[#777f8b]" />
         <h1 className="text-xl font-bold text-[#08fdd8] hover:text-[#08fdd8] my-4 mx-[30px]">
           <a
+            onClick={() => setOpen(false)}
             href="https://drive.google.com/file/d/1rSp55Bsd2tjL2sCkrlQRXull1vN1bH3Z/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
