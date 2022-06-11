@@ -130,7 +130,7 @@ const MySkills = ({ open, setOpen }) => {
         ></progress> */}
         </div>
       )}
-      <Services></Services>
+      <Services open={open}></Services>
     </div>
   );
 };

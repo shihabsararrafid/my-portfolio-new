@@ -11,6 +11,7 @@ import About from "./Components/About/About";
 import MySkills from "./Components/MySkills/MySkills";
 import Allprojects from "./Components/Projects/Allprojects";
 import ProjectDetails from "./Components/Projects/ProjectDetails";
+import Blogs from "./Components/Blogs/Blogs";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -36,6 +37,10 @@ function App() {
           <Route
             path="projects"
             element={<Allprojects open={open} setOpen={setOpen}></Allprojects>}
+          ></Route>
+          <Route
+            path="blogs"
+            element={<Blogs open={open} setOpen={setOpen}></Blogs>}
           ></Route>
           <Route
             path="about"
