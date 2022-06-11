@@ -1,8 +1,8 @@
 import React from "react";
-
+import "./Footer.css";
 const Footer = () => {
   return (
-    <footer class="footer footer-center p-10 bg-[#0aedcb] text-white">
+    <footer class="footer footer-center p-10  text-white">
       <div>
         <img
           className="w-[20%] block mx-[89px]"
