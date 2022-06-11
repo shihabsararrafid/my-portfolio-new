@@ -6,6 +6,7 @@ const Contact = () => {
   if (state.succeeded) {
     alert("Thanks For Your Interest!");
   }
+
   return (
     <div id="contact" className="lg:w-[50%] md:w-[75%] w-full mx-auto">
       <h1 className="text-[#1E72EE] my-5 text-5xl font-bold text-center">
