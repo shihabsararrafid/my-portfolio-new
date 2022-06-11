@@ -6,8 +6,8 @@
         "shot1":"https://i.ibb.co/Mh8q2Q2/tool-1.png",
         "shot2":"https://i.ibb.co/1n0xkMc/tool-2.png",
         "shot3":"https://i.ibb.co/TTQYYcH/tool-3.png",
-        "client-side":"",
-        "server-side":"",
+        "clientSide":"https://github.com/shihabsararrafid/manufacturer-client",
+        "serverSide":"https://github.com/shihabsararrafid/manufacturer-server",
         "img":"https://i.ibb.co/xSdgVj1/toolex.png"
     },
     {
@@ -17,8 +17,8 @@
         "shot1":"https://i.ibb.co/hBRhg6g/elec-1.png",
         "shot2":"https://i.ibb.co/X8NP1YJ/elec-2.png",
         "shot3":"https://i.ibb.co/rf9mmHG/elec-3.png",
-        "client-side":"",
-        "server-side":"",
+        "clientSide":"https://github.com/shihabsararrafid/warehouse-management-client",
+        "serverSide":"https://github.com/shihabsararrafid/warehouse-management-server",
         "img":"https://i.ibb.co/WHL3cWB/electra-warehouse.png"
     },
     {
@@ -28,8 +28,8 @@
         "shot1":"https://i.ibb.co/bd90K5w/gym-1.png",
         "shot2":"https://i.ibb.co/sCX8pwg/gym-2.png",
         "shot3":"https://i.ibb.co/zrCFGD4/gym-3.png",
-        "client-side":"",
-        "server-side":"",
+        "clientSide":"https://github.com/shihabsararrafid/gym-guru-client",
+        "serverSide":" ",
         "img":"https://i.ibb.co/qF0508X/gym-guru.png"
 
     },
@@ -42,8 +42,8 @@
         "shot1":"https://i.ibb.co/KFJgkJP/mobile-01.png",
         "shot2":"https://i.ibb.co/9q25PmY/mobile-02.png",
         "shot3":"https://i.ibb.co/vkcrM3d/mobile-03.png",
-        "client-side":"",
-        "server-side":"",
+        "clientSide":"https://github.com/shihabsararrafid/phone-lover",
+        "serverSide":"",
         "img":"https://i.ibb.co/vjPZ38M/mobile-finder.png"
     },
     {
@@ -53,8 +53,8 @@
         "shot1":"https://i.ibb.co/GTtvbmm/watch-01.png",
         "shot2":"https://i.ibb.co/YB8QgTR/watch-02.png",
         "shot3":"https://i.ibb.co/4tPrLNj/watch-03.png",
-        "client-side":"",
-        "server-side":"",
+        "clientSide":"https://github.com/shihabsararrafid/lucky-one",
+        "serverSide":"",
         "img":"https://i.ibb.co/g4CJX9b/watch-lover.png"
     },
     {
@@ -64,8 +64,8 @@
         "shot1":"https://i.ibb.co/D8XF0m6/laptop-1.png",
         "shot2":"https://i.ibb.co/cLGSSSg/laptop-2.png",
         "shot3":"https://i.ibb.co/Kspdj6K/laptop-3.png",
-        "client-side":"",
-        "server-side":"",
+        "clientSide":"https://github.com/shihabsararrafid/product-analysis",
+        "serverSide":"",
        
         "img":"https://i.ibb.co/stPzMQW/laptop-Mania.png"
     }
