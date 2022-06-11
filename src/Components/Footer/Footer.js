@@ -16,9 +16,9 @@ const Footer = () => {
           Copyright © 2022 - All right reserved
         </p>
         <p className="font-semibold font-serif">
-          Designed and created by me © Rafid
+          Designed and Developed by me © Rafid
         </p>
-        <p>Made with React js</p>
+        <p>Made with React js </p>
       </div>
       <div></div>
     </footer>
