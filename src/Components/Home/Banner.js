@@ -26,7 +26,7 @@ const Banner = ({ open, setOpen }) => {
           <AiOutlineBars></AiOutlineBars>
         )}
       </h1>
-      <div className="text-white ml-9 mt-14 text-7xl w-full lg:w-[50%] font-semibold">
+      <div className="text-white ml-0 lg:ml-9 mt-14 text-5xl lg:text-7xl w-full lg:w-[50%] font-semibold">
         <div className="">
           <span className="banner-text">H</span>
           <span className="banner-text">i</span>
