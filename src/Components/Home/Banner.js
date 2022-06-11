@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
 import useOpen from "../UseOpen";
+import "./button.css";
 const Banner = ({ open, setOpen }) => {
   //   const [open, setOpen] = useOpen();
   //console.log(open);
