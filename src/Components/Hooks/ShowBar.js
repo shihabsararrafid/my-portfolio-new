@@ -3,7 +3,13 @@ import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
 const ShowBar = ({ open, setOpen }) => {
   return (
     <div>
-      <button className="btn bg-[#1E72EE] hover:bg-white hover:text-[#1E72EE] lg:hidden">
+      <button
+        className={`btn bg-[#1E72EE]  hover:text-[#1E72EE] ${
+          open ? "bg-transparent" : ""
+        } ${open ? "text-transparent" : ""} ${
+          open ? "border-none" : ""
+        } lg:hidden`}
+      >
         <a
           href="https://drive.google.com/file/d/1rSp55Bsd2tjL2sCkrlQRXull1vN1bH3Z/view?usp=sharing"
           target="_blank"

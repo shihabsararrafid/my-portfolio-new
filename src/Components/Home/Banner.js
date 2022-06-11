@@ -7,7 +7,13 @@ const Banner = ({ open, setOpen }) => {
   //console.log(open);
   return (
     <div>
-      <button className="btn bg-[#1E72EE] hover:bg-white hover:text-[#1E72EE] lg:hidden">
+      <button
+        className={`btn bg-[#1E72EE]  hover:text-[#1E72EE] ${
+          open ? "bg-transparent" : ""
+        } ${open ? "text-transparent" : ""} ${
+          open ? "border-none" : ""
+        }  lg:hidden`}
+      >
         <a
           href="https://drive.google.com/file/d/1rSp55Bsd2tjL2sCkrlQRXull1vN1bH3Z/view?usp=sharing"
           target="_blank"
@@ -66,7 +72,11 @@ const Banner = ({ open, setOpen }) => {
           I think ,I code and I make beautifully simple things, and I love what
           I do.
         </p>
-        <button className="btn px-8 text-xl  py-3 my-7 bg-[#1E72EE] block mx-auto">
+        <button
+          className={`btn px-8 text-xl  py-3 my-7 bg-[#1E72EE] ${
+            open ? "hidden" : "block"
+          }  mx-auto`}
+        >
           Contact Me
         </button>
       </div>
