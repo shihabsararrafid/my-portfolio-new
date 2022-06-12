@@ -143,20 +143,6 @@ const MySkills = ({ open, setOpen }) => {
             ></progress>
             <p>50%</p>
           </div>
-          <div
-            className="flex  items-center"
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
-            <p className="mr-2 w-[10%]">TypeScript</p>
-            <progress
-              className="block progress progress-primary border-2 border-[#08fdd8] h-[10px] w-full lg:w-[50%] my-5"
-              value="10"
-              max="100"
-            ></progress>
-            <p>10%</p>
-          </div>
 
           {/* <progress
           className="block progress progress-primary border-2 border-white h-[20px] w-[50%] my-5"

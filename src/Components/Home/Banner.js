@@ -1,5 +1,8 @@
 import React from "react";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
+
+import TypeAnimation from "react-type-animation";
+import { Link } from "react-router-dom";
 import useOpen from "../UseOpen";
 import "./button.css";
 const Banner = ({ open, setOpen }) => {
@@ -33,7 +36,7 @@ const Banner = ({ open, setOpen }) => {
           <AiOutlineBars></AiOutlineBars>
         )}
       </h1>
-      <div className="text-white  ml-0 md:mx-10  lg:ml-9 mt-14 text-5xl lg:text-7xl w-full md:w-[55%] lg:w-[50%] font-semibold">
+      <div className="text-white  ml-0 md:mx-10  lg:ml-9 mt-14 text-5xl  lg:text-7xl w-full  lg:w-[50%] font-semibold">
         <div className="">
           <span className="banner-text">H</span>
           <span className="banner-text">i</span>
@@ -50,7 +53,7 @@ const Banner = ({ open, setOpen }) => {
         <span className="banner-text">d</span>
         <span className="banner-text">,</span>
         <br />
-        <span className="banner-text">W</span>
+        {/* <span className="banner-text">W</span>
         <span className="banner-text">e</span>
         <span className="banner-text">b</span>
         <span className="banner-text"> d</span>
@@ -61,8 +64,16 @@ const Banner = ({ open, setOpen }) => {
         <span className="banner-text">o</span>
         <span className="banner-text">p</span>
         <span className="banner-text">e</span>
-        <span className="banner-text">r</span>
-        <br />
+        <span className="banner-text">r</span> */}
+        <h2 className="text-primary w-full h-[70px]">
+          <TypeAnimation
+            cursor={true}
+            sequence={["Web Developer", 3000, "Problem Solver", 3000]}
+            wrapper="h2"
+            repeat={Infinity}
+          />
+        </h2>
+
         <p className="text-gray-400 text-lg font-mono">
           Front End Developer / React developer /Javascript Developer/Problem
           Solver{" "}
@@ -72,17 +83,19 @@ const Banner = ({ open, setOpen }) => {
           I think ,I code and I make beautifully simple things, and I love what
           I do.
         </p>
-        <div className="flex justify-end w-full">
-          <button
-            className={`btn px-8  text-xl text-black  py-3 my-7 bg-[#08FDD8] ${
-              open ? "hidden" : "block"
-            }  mx-auto`}
-            data-aos="zoom-in"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
-            Contact Me
-          </button>
+        <div className="flex justify-center lg:justify-end w-full">
+          <Link to="/contact">
+            <button
+              className={`btn px-8  text-xl text-black  py-3 my-7 bg-[#08FDD8] ${
+                open ? "hidden" : "block"
+              }  mx-auto`}
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              Contact Me
+            </button>
+          </Link>
         </div>
       </div>
     </div>

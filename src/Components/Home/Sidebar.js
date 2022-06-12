@@ -9,7 +9,7 @@ const Sidebar = ({ open, setOpen }) => {
   //console.log("from banner ", open);
   return (
     <div
-      className={`lg:w-[250px] absolute top-0 lg:sticky w-[300px] ${
+      className={`lg:w-[250px] duration-500 absolute top-0 lg:sticky w-[300px] ${
         open === true ? "block" : "hidden"
       } lg:block   lg:mx-0 h-[100vh] text-white bg-[#181818]`}
     >
