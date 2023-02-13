@@ -39,7 +39,7 @@ const Portfolio = () => {
           </button>
         </Link>
       </div>
-      <Projects len={3}></Projects>
+      <Projects len={4}></Projects>
     </div>
   );
 };

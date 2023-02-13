@@ -27,6 +27,20 @@
     },
     {
         "id":3,
+        "name":"Fungshon E-Commerce",
+        "liveSite":"https://fungshon-ecommerce.web.app/",
+        "shot1":"https://i.ibb.co/TkSM8Jr/f1.jpg",
+        "shot2":"https://i.ibb.co/ccvQX0X/f2.jpg",
+        "shot3":"https://i.ibb.co/QJG4VVB/f3.jpg",
+        "clientSide":"https://github.com/shihabsararrafid/fungshon-commerce",
+        "serverSide":" ",
+        "tehnologies":"Tailwind, React , FirebaseAuthentication, Font Awesome Icon , React Router Dom, React Icon, React Form Hook",
+        "details":"This a front end Project for an ecommerce site name fungshon . In this website one can add cart to his favourite items , see his cart ,update his cart , login to his account . It is not connected to database . The data is loaded from fakeapi.com  ",
+        "img":"https://i.ibb.co/gFg5Q3z/fungshon-ecommerce.jpg"
+
+    },
+    {
+        "id":4,
         "name":"Gym Guru",
         "liveSite":"https://gym-guru-86903.web.app/",
         "shot1":"https://i.ibb.co/bd90K5w/gym-1.png",
@@ -42,7 +56,7 @@
     
     
     {
-        "id":4,
+        "id":5,
         "name":"Mobile Finder",
         "liveSite":"https://mobile-finder-rafid.netlify.app/",
         "shot1":"https://i.ibb.co/KFJgkJP/mobile-01.png",
@@ -55,7 +69,7 @@
         "img":"https://i.ibb.co/vjPZ38M/mobile-finder.png"
     },
     {
-        "id":5,
+        "id":6,
         "name":"Watch Lover",
         "liveSite":"https://lucky-one-rafid.netlify.app/",
         "shot1":"https://i.ibb.co/GTtvbmm/watch-01.png",
@@ -68,7 +82,7 @@
         "img":"https://i.ibb.co/g4CJX9b/watch-lover.png"
     },
     {
-        "id":6,
+        "id":7,
         "name":"Product Analysis",
         "liveSite":"https://product-analysis-rafid.netlify.app/home",
         "shot1":"https://i.ibb.co/D8XF0m6/laptop-1.png",
@@ -79,5 +93,18 @@
         "details":"This a front end project for showing the reviews from customer where simple react routing system is used with tailwind. For more details please visit client side code  ",
         "tehnologies":"Tailwind, React ,  React Router Dom",
         "img":"https://i.ibb.co/stPzMQW/laptop-Mania.png"
+    },
+    {
+        "id":8,
+        "name":"Media Doc",
+        "liveSite":"https://medidoc-task.netlify.app/",
+        "shot1":"https://i.ibb.co/G01qtSV/g2.jpg",
+        "shot2":"https://i.ibb.co/VNG4tf3/g3.jpg",
+        "shot3":"https://i.ibb.co/jzS5RxJ/g1.jpg",
+        "clientSide":"https://github.com/shihabsararrafid/task-02",
+        "serverSide":"",
+        "details":"This a front end project for showing the reviews from customer where simple react routing system is used with tailwind. For more details please visit client side code  ",
+        "tehnologies":"Tailwind, React ,  React Router Dom",
+        "img":"https://i.ibb.co/jzS5RxJ/g1.jpg"
     }
 ]
